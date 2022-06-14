@@ -6,7 +6,7 @@ from folder_functions.bot_farewell_user import bot_farewell_user
 commands = {
     'greeting': ['привет', 'здравствуй'],
     'farewell': ['пока', 'прощай'],
-    'search_video_on_youtube': ['youtube', 'видео', 'найди'],
+    'search_video_on_youtube': ['youtube', 'видео', 'найди', 'на', 'ютуб', 'ютубе', 'ютюбе'],
     'search_article_on_wikipedia': ['wikipedia', 'статья', 'википедия'],
     'weather_forecast': ['погода', 'прогноз']
 }

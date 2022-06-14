@@ -21,7 +21,7 @@ def the_determinant_of_the_type_of_command(command, voice_text):
         bot_farewell_user()
 
 
-def search_command_in_commands(voice_text):
+def search_command_in_commands_lst(voice_text):
     dct_coincidence = {}
     for key in commands.keys():
         lst_command_words = commands[key]
@@ -63,4 +63,4 @@ if __name__ == "__main__":
         print(voice_input)
 
         # отделение комманд от дополнительной информации (аргументов)
-        search_command_in_commands(voice_input)
+        search_command_in_commands_lst(voice_input)
